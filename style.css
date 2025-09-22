@@ -1,0 +1,142 @@
+body {
+    font-family: 'Newsreader', serif;
+    background-color: #275470 !important;
+    height: 100%;
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#div1 {
+    color: rgb(255, 255, 255);
+}
+
+.cen {
+    text-align: center;
+    align-items: justify !important;
+}
+
+/* hr padding fixes a bug*/
+hr {
+    padding-right: 20px !important;
+    width: 100% !important; 
+}
+
+img {
+    width: 70px;
+}
+
+.header {
+    font-size: 40px;
+    font-family: charm;
+}
+
+.gold {
+    color :#f9e20c ;
+}
+
+.gold-bg{
+
+    background-color: #fdbb22;
+}
+
+.blue {
+    color: #dbe8ff;
+}
+
+
+.card {
+    background: #c4e7ea !important;
+    border-radius: 8px;
+    margin: 15px !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+.darkblue {
+    color: rgb(3, 51, 61);
+}
+
+#div1_contact {
+    background-color: #74cce4 ;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.navbar .nav-link {
+  color: #F5EFEB;
+  font-weight: 600;
+}
+
+.navbar .nav-link:hover {
+  color: #2374d1;
+}
+
+.search {
+  padding: 5px 10px;
+  border: 2px solid #C8D9E6;
+  border-radius: 8px;
+  outline: none;
+  font-family: charm;
+}
+
+table, th, td {
+    border: 1px solid rgb(255, 255, 255) !important;
+    border-collapse: collapse;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 20px !important;
+    line-height: 1.6;
+}
+
+.ital {
+    font-style: italic;
+}
+
+nav {
+
+    padding: 20px !important;
+}
+
+table.cen {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+
+.charm {
+    font-family: Charm, cursive;
+}
+
+/* adjust height vertically */
+ #div2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 45vh; 
+}
+
+.pad {
+    margin-top: 12px;
+}
+
+#div3 {
+    background-color: rgb(255, 229, 100);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 40px !important;
+    display: flex !important;
+    position: fixed !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: rgb(70, 52, 0);
+}
+
+
+
