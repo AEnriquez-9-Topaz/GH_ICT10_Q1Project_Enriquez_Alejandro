@@ -12,10 +12,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Delius&family=Ephesis&family=Lexend:wght@100..900&family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rouge+Script&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap" rel="stylesheet">
 </head>
 <body>
 	<nav class="navbar navbar-expand-sm gold-bg cen col-sm-12">
-		<div class="container-fluid">
+		<div class="container-fluid"> <!-- Div for navbar -->
 		    <a class="navbar-brand col-sm-3" href=""><img src="https://i.ibb.co/jPv9cCLN/Another-version-modified.png" alt="logo"  class="logo d-inline-block align-top"></a>
             <!-- Personal logo -->
 		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -28,7 +29,7 @@
 	   							<a class="nav-link" href="../index.html" style="background-color: #cb9f0f; color:#EBEBEB !important;">Main</a>
 	      			</li>
 		       		<li class="nav-item ">
-		         			 <a class="nav-link" href="schedule.html" >Order</a>
+		         			 <a class="nav-link" href="Order/order.html" >Order</a>
 		        	</li>  
 		       		<li class="nav-item ">
 		          		<a class="nav-link" href="ContactUs/contact.html">Contact Us</a>
@@ -47,15 +48,15 @@
     <div id="div1"> <!--First div for main headings-->
         <br><br>
         <h1 class="cen header gold" id="Restaurant_name">  </h1> 
-        <h4 id="owner" class="cen charm"></h4>
+        <h5 id="owner" class="cen sour_gummy"><i></i></h5>
         <br>
 		<hr>
     </div>
 	
     <div id="div2" class="cen"> <!--Second div for Menu table with most of the Python-->
 		<br>
-        <h1 class="blue">   Menu Pricelist </h1>
-        <table class="cen">
+        <h1 class="blue sour_gummy">   Menu Pricelist </h1>
+        <table class="cen funnel_dis">
 		    <thead>
 				 <tr>
 	    		    <th class="gold ital">Product</th>
@@ -97,11 +98,9 @@
 		</table>
 		<br><br><br><br>
     </div> 
-    <div id="div3"> <!--Third div as footer-->
+    <div id="footer"> <!--Third div as footer-->
         <p class="cen ital pad" id="Business_Hours"> </p>
     </div>
     <py-script src="main.py"></py-script>
 </body>
-
 </html>
-
